@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034d7fb7aa24afa4aab11699ab09c16c, type: 3}
+  m_Name: grassland1
+  m_EditorClassIdentifier: 
+  tileAtlas: {fileID: 11400000, guid: de6c49bf60c03294f9ce75d2f9fe6fe1, type: 2}
+  grassNoise:
+    seed: 1000
+    frequenzy: 3
+    scale: 3
+  mountainNoise:
+    seed: 500
+    frequenzy: 25
+    scale: 13
+  lakeNoise:
+    seed: 1000
+    frequenzy: 25
+    scale: 7
+  treeNoise:
+    seed: 1000
+    frequenzy: 2
+    scale: 8
+  bushNoise:
+    seed: 1000
+    frequenzy: 5
+    scale: 8
+  rockNoise:
+    seed: 1000
+    frequenzy: 3
+    scale: 15
+  grassPropNoise:
+    seed: 1500
+    frequenzy: 3
+    scale: 5

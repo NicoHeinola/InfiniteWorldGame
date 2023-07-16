@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034d7fb7aa24afa4aab11699ab09c16c, type: 3}
+  m_Name: waterland
+  m_EditorClassIdentifier: 
+  tileAtlas: {fileID: 11400000, guid: de6c49bf60c03294f9ce75d2f9fe6fe1, type: 2}
+  grassNoise:
+    seed: 1000
+    frequenzy: 3
+    scale: 1
+  mountainNoise:
+    seed: 500
+    frequenzy: 16
+    scale: 1.4
+  lakeNoise:
+    seed: 1000
+    frequenzy: 16
+    scale: 1
+  treeNoise:
+    seed: 1000
+    frequenzy: 2
+    scale: 8
+  maxGrass: 0.5
+  maxMountain: 0.25
+  maxLake: 332.11
+  maxTree: 0.5

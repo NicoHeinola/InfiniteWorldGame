@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f01f01d0c83a8a4490b1a72fa4b636f, type: 3}
+  m_Name: TileAtlas
+  m_EditorClassIdentifier: 
+  tiles:
+  - tile: {fileID: 11400000, guid: a96c8b9fd4157bb468bd2a03b60032ed, type: 2}
+    tileData: {fileID: 11400000, guid: 10c579565e273c444b3e55fe9ab9d4b4, type: 2}
+    id: 0
+    name: water
+  - tile: {fileID: 11400000, guid: b51b32012f05e964c9429de4a20ef886, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 2
+    name: grass-1
+  - tile: {fileID: 11400000, guid: abb7666bf0910da4abbaf6dd22d7b21f, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 3
+    name: grass-2
+  - tile: {fileID: 11400000, guid: a6ee0d7d95a65cc468fa46c8195e5784, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 4
+    name: tree-1
+  - tile: {fileID: 11400000, guid: 2b9da338fb8237345ad14dc8c875358e, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 5
+    name: bush-1
+  - tile: {fileID: 11400000, guid: f1c58886a0ad8404181d9df7a62fa22e, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 6
+    name: rock-1
+  - tile: {fileID: 11400000, guid: 05988d90b197ed148a43b63277db3f43, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 7
+    name: grass-prop-1
+  - tile: {fileID: 11400000, guid: 448374cd307364d4689c0f09bf3b2215, type: 2}
+    tileData: {fileID: 11400000, guid: 09da80d853c5a1948896f57e5388e53f, type: 2}
+    id: 8
+    name: mountain-1
